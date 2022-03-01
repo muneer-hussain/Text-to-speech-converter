@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text-to-speech converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@350&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="converter-wrapper">
+        <div class="converter">
+            <div id="heading">
+                <h1>Text-to-Speech</h1>
+            </div>
+            <div class="text">
+                <p id="text-name">Enter Text</p>
+                <textarea name="text-input" id="input"></textarea>
+            </div>
+            <div class="language">
+                <p id="lang">Language</p>
+                <input type="text" name="lang-name" id="lang-name" readonly>
+            </div>
+            <div class="btn">
+                <button id="btn-enter">Convert</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
