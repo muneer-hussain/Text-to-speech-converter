@@ -14,3 +14,10 @@ btn.addEventListener("click", function() {
         textToSpeech(enter.value)
     }
 })
+window.addEventListener("keydown", (e) => { 
+if (e.keyCode == 13) { 
+  if(enter.value != "") {
+    textToSpeech(enter.value);
+}
+ }
+ });
